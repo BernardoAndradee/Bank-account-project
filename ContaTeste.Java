@@ -11,10 +11,11 @@ public class ContaTeste {
         c2.cliente = "Sebastian";
         c2.saldo = 5000.00;
         c2.exibesaldo();
-        System.out.println("\n");
         
+        System.out.println("\n");
         c1.transfvalor(c2, 2000);        
         System.out.println("\n");
+        
         c1.exibesaldo();
         c2.exibesaldo();      
     }
