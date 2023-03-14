@@ -9,7 +9,7 @@ public class ContaTeste {
            
         Conta c2 = new Conta();
         c2.cliente = "Sebastian";
-        c2.saldo = 5_000.00;
+        c2.saldo = 5000.00;
         c2.exibesaldo();
         System.out.println("\n");
         
